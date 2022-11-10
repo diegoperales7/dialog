@@ -1,0 +1,250 @@
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.storybook-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+
+.contenedor{
+  padding-top:100px;
+  display:flex;
+  justify-content: center;
+}
+
+
+.modal{
+  background: #A8E890;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  bottom: auto;
+  left: 25%;
+  position: absolute;
+  top: 10%;
+  visibility: hidden;
+  width: 55%;
+}
+
+.modTitle{
+  background-color: #749F82;
+  border-radius: 10px;
+  justify-content: center; 
+}
+h2{
+  margin-top: 0;
+  padding: 10px;
+  
+}
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: rgb(255, 255, 255);
+  display: block;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #425F57;
+}
+
+.modal__close:before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.btn {
+  background: #425F57;
+  padding: 1em;
+  color: #fff;
+  border-radius: 3px;
+  
+}
+
+
+.btn:hover
+{
+  background: #749F82;
+}
+
+.btnModal{
+  background-color: #425F57;
+ padding: 10px;
+  border-radius: 10px;
+  margin:10px ;
+  color: #fff;
+}
+.btnModal:hover{
+   background: #749F82;
+}
+.modal.a{
+  visibility: visible;
+}
+
+.noHidd{
+  visibility: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.wrapper {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+.welcome {
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+label{
+  color:#F90;
+}
+section {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #333;
+}
+
+section h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section p {
+  margin: 1em 0;
+}
+
+section a {
+  text-decoration: none;
+  color: #1ea7fd;
+}
+
+section ul {
+  padding-left: 30px;
+  margin: 1em 0;
+}
+
+section li {
+  margin-bottom: 8px;
+}
+
+section .tip {
+  display: inline-block;
+  border-radius: 1em;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  background: #e7fdd8;
+  color: #66bf3c;
+  padding: 4px 12px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+section .tip-wrapper {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section .tip-wrapper svg {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 4px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+section .tip-wrapper svg path {
+  fill: #1ea7fd;
+}
+
+
+/*# sourceMappingURL=main.123a2f4e.css.map*/
