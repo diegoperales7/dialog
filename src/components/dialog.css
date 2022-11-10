@@ -1,0 +1,108 @@
+
+.contenedor{
+  padding-top:100px;
+  display:flex;
+  justify-content: center;
+}
+
+
+.modal{
+  background: #A8E890;
+  border-color: black;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  bottom: auto;
+  left: 25%;
+  position: absolute;
+  top: 10%;
+  visibility: hidden;
+  width: 55%;
+}
+
+.modTitle{
+  background-color: #749F82;
+  border-radius: 10px;
+  justify-content: center; 
+}
+h2{
+  margin-top: 0;
+  padding: 10px;
+  
+}
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: rgb(255, 255, 255);
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #425F57;
+}
+
+.modal__close:before {
+  transform: rotate(-45deg);
+}
+
+.btn {
+  background: #425F57;
+  padding: 1em;
+  color: #fff;
+  border-radius: 3px;
+  
+}
+
+
+.btn:hover
+{
+  background: #749F82;
+}
+
+.btnModal{
+  background-color: #425F57;
+ padding: 10px;
+  border-radius: 10px;
+  margin:10px ;
+  color: #fff;
+}
+.btnModal:hover{
+   background: #749F82;
+}
+.modal.a{
+  visibility: visible;
+}
+
+.noHidd{
+  visibility: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
